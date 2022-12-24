@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="519ac072-5e77-4d61-a686-b751d0d2028a" name="debian-11-go-2">
+        <fileTransfer accessType="SFTP" host="localhost" port="3333" sshConfigId="2411f63f-11fd-45d9-82b2-feec339bc8ed" sshConfig="root@localhost:3333 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="044d2b84-a479-4f38-80cc-f95b079ff3d4" name="debian-11-go">
+        <fileTransfer accessType="SFTP" host="localhost" port="4444" sshConfigId="702b1125-da7d-405d-93cd-7da1864a8688" sshConfig="root@localhost:4444 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
